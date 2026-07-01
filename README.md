@@ -14,40 +14,69 @@ An end-to-end data analytics project using **Google BigQuery** and **Tableau Pub
 
 This project explores the Chicago Taxi Trips public dataset using SQL in Google BigQuery and visualizes key business insights in Tableau.
 
-The objective was to answer business questions such as:
 
-- How has taxi revenue changed over time?
-- How has trip volume changed over the years?
-- Which payment methods generate the most revenue?
-- What is the average trip distance?
-- What are the overall key performance indicators (KPIs)?
+## Business Questions
 
----
+This project aims to answer the following business questions:
+
+1. How has taxi revenue changed over the years?
+2. How has annual trip volume changed?
+3. Which payment methods generate the highest revenue?
+4. How has the average trip distance changed over time?
+5. What are the overall key performance indicators (KPIs) for Chicago taxi trips?
 
 ## Dataset
 
 - Source: Google BigQuery Public Dataset
 - Dataset: `bigquery-public-data.chicago_taxi_trips.taxi_trips`
-- Records analyzed: **213 million+ taxi trips**
+- Records analyzed: 213.1 million taxi trips
 
 ---
+
+
+## SQL Techniques Used
+
+During this project I used SQL to perform:
+
+- Aggregate Functions (COUNT, SUM, AVG)
+- Date Functions (EXTRACT)
+- Filtering (WHERE)
+- Grouping and Aggregation (GROUP BY)
+- Sorting Results (ORDER BY)
+- KPI Calculations
 
 ## Tools Used
 
 - Google BigQuery
-- SQL
+- Standard SQL
 - Tableau Public
 - GitHub
 
 ---
 
-## Dashboard
+## Tableau Dashboard
 
-Interactive Tableau Dashboard:
+The dashboard was built in Tableau Public using the SQL outputs generated in Google BigQuery.
 
-(a)
+### Dashboard Features
 
----
+- KPI cards
+- Annual Revenue Trend
+- Annual Trip Volume
+- Revenue by Payment Type
+- Average Trip Distance Trend
+
+**Interactive Dashboard**
+
+(https://public.tableau.com/views/ChicagoTaxiTripsAnalysisDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+## Key Insights
+
+- More than **213 million** taxi trips were analyzed.
+- Total revenue exceeded **$3.5 billion**.
+- Credit Card and Cash were the dominant payment methods.
+- Taxi trips dropped significantly during 2020.
+- Average trip distance increased after 2020.
 
 ## Repository Structure
 
@@ -55,9 +84,43 @@ Interactive Tableau Dashboard:
 Chicago-Taxi-Analysis
 │
 ├── sql/
+│   ├── 01_total_kpi.sql
+│   ├── 02_revenue_by_year.sql
+│   ├── 03_trip_volume_by_year.sql
+│   ├── 04_revenue_by_payment_type.sql
+│   ├── 05_average_trip_distance.sql
+│   └── 06_kpi_dashboard.sql
+│
 ├── images/
+│   ├── SQL screenshots
+│
 ├── dashboard/
-├── data/
+│   ├── Dashboard preview
+│   ├── Tableau Public link
+│
 ├── documentation/
+│
 └── README.md
 ```
+
+## Skills Demonstrated
+
+- SQL
+- Google BigQuery
+- Data Cleaning
+- Data Aggregation
+- Business Analysis
+- KPI Reporting
+- Data Visualization
+- Tableau Public
+- GitHub Documentation
+
+---
+
+## Author
+
+**Nima Esfandiari**
+
+Data Analyst | SQL | Tableau | Excel | BigQuery
+
+Feel free to connect with me on LinkedIn and explore my other projects.
