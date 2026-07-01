@@ -45,7 +45,7 @@ The objective was to answer business questions such as:
 
 Interactive Tableau Dashboard:
 
-(We'll add your Tableau Public link here in the next step.)
+()
 
 ---
 
