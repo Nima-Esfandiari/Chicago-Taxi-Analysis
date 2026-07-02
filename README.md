@@ -1,7 +1,7 @@
 # Chicago Taxi Trips Analysis | BigQuery + Tableau Portfolio Project
 
 An end-to-end data analytics project using **Google BigQuery** and **Tableau Public** to analyze over **213 million Chicago taxi trips**.
-
+The project workflow included querying raw data in Google BigQuery, preparing aggregated datasets with SQL, and building an interactive dashboard in Tableau Public.
 ---
 
 ## Dashboard Preview
@@ -105,15 +105,15 @@ Chicago-Taxi-Analysis
 
 ## Skills Demonstrated
 
-- SQL
-- Google BigQuery
-- Data Cleaning
-- Data Aggregation
-- Business Analysis
-- KPI Reporting
-- Data Visualization
-- Tableau Public
-- GitHub Documentation
+SQL
+Google BigQuery
+Tableau Public
+Data Visualization
+Business Analysis
+Data Aggregation
+KPI Reporting
+Data Cleaning
+GitHub Documentation
 
 ---
 
