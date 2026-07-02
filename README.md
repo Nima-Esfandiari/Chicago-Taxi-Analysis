@@ -127,6 +127,7 @@ Chicago-Taxi-Analysis
 │
 ├── dashboard/
 │   ├── dashboard_notes.md
+│   ├── dashboard_overview.png
 │   └── tableau_public_link.md
 │
 ├── documentation/
