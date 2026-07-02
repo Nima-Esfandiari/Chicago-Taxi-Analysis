@@ -45,6 +45,26 @@ During this project I used SQL to perform:
 - Sorting Results (ORDER BY)
 - KPI Calculations
 
+  ## BigQuery Visualizations
+
+The SQL queries were first executed and validated in **Google BigQuery**. Before creating the Tableau dashboard, I used BigQuery's built-in visualization tools to verify trends and explore the data.
+
+### Revenue by Year
+![](images/charts/02_revenue_by_year_chart.png)
+
+### Trip Volume by Year
+![](images/charts/03_trip_volume_by_year_chart.png)
+
+### Revenue by Payment Type
+![](images/charts/04_revenue_by_payment_type_chart.png)
+
+### Average Trip Distance
+![](images/charts/05_average_trip_distance_chart.png)
+
+## Query Results
+
+Screenshots of the SQL queries executed in Google BigQuery are available in the `images/query_results` folder.
+
 ## Tools Used
 
 - Google BigQuery
@@ -78,26 +98,42 @@ The dashboard was built in Tableau Public using the SQL outputs generated in Goo
 - Taxi trips dropped significantly during 2020.
 - Average trip distance increased after 2020.
 
+
 ## Repository Structure
 
 ```text
 Chicago-Taxi-Analysis
 │
 ├── sql/
-│   ├── 01_kpi_summary.sql
+│   ├── 01_total_kpi.sql
 │   ├── 02_revenue_by_year.sql
 │   ├── 03_trip_volume_by_year.sql
 │   ├── 04_revenue_by_payment_type.sql
-│   ├── 05_average_trip_distance.sql
+│   └── 05_average_trip_distance.sql
 │
 ├── images/
-│   ├── SQL screenshots
+│   ├── query_results/
+│   │   ├── 01_kpi_summary.png
+│   │   ├── 02_revenue_by_year.png
+│   │   ├── 03_trip_volume_by_year.png
+│   │   ├── 04_revenue_by_payment_type.png
+│   │   └── 05_average_trip_distance.png
+│   │
+│   └── charts/
+│       ├── 02_revenue_by_year_chart.png
+│       ├── 03_trip_volume_by_year_chart.png
+│       ├── 04_revenue_by_payment_type_chart.png
+│       └── 05_average_trip_distance_chart.png
 │
 ├── dashboard/
-│   ├── Dashboard preview
-│   ├── Tableau Public link
+│   ├── dashboard_notes.md
+│   └── tableau_public_link.md
 │
 ├── documentation/
+│   └── project_notes.md
+│
+├── data/
+│   └── README.md
 │
 └── README.md
 ```
