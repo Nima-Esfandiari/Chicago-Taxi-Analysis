@@ -84,7 +84,7 @@ The dashboard was built in Tableau Public using the SQL outputs generated in Goo
 Chicago-Taxi-Analysis
 │
 ├── sql/
-│   ├── 01_total_kpi.sql
+│   ├── 01_kpi_summary.sql
 │   ├── 02_revenue_by_year.sql
 │   ├── 03_trip_volume_by_year.sql
 │   ├── 04_revenue_by_payment_type.sql
