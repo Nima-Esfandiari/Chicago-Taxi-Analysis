@@ -19,11 +19,11 @@ This project explores the Chicago Taxi Trips public dataset using SQL in Google 
 
 This project aims to answer the following business questions:
 
-1. How has taxi revenue changed over the years?
-2. How has annual trip volume changed?
-3. Which payment methods generate the highest revenue?
-4. How has the average trip distance changed over time?
-5. What are the overall key performance indicators (KPIs) for Chicago taxi trips?
+1.What are the overall key performance indicators (KPIs) for Chicago taxi trips?
+2.How has taxi revenue changed over the years?
+3.How has annual trip volume changed over time?
+4.Which payment methods generate the highest revenue?
+5.How has the average trip distance changed over time?
 
 ## Dataset
 
@@ -89,7 +89,6 @@ Chicago-Taxi-Analysis
 │   ├── 03_trip_volume_by_year.sql
 │   ├── 04_revenue_by_payment_type.sql
 │   ├── 05_average_trip_distance.sql
-│   └── 06_kpi_dashboard.sql
 │
 ├── images/
 │   ├── SQL screenshots
